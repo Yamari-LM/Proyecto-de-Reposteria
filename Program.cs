@@ -33,7 +33,7 @@ class Reposteria
             if (SECCION == "C")
             {
                 continuarCompra = false;
-                Console.WriteLine($"Total a pagar: {total} Lps");
+                Console.WriteLine($"Total a pagar: {total} Lps ");
                 Console.WriteLine("¡Gracias, vuelva pronto!");
                 continue;
             }
@@ -83,6 +83,7 @@ class Reposteria
 
                 IMPUESTO = 1;
             }
+           
             else if (SECCION == "S")
             {
                 Console.WriteLine("ESTAS SON LAS OPCIONES QUE TENEMOS EN ESTA SECCIÓN:");
@@ -150,6 +151,7 @@ class Reposteria
 
                 IMPUESTO = 0.09;
             }
+           
             else if (SECCION == "L")
             {
                 Console.WriteLine("ESTAS SON LAS OPCIONES QUE TENEMOS EN ESTA SECCIÓN:");
@@ -184,6 +186,7 @@ class Reposteria
 
                 IMPUESTO = 2;
             }
+           
             else if (SECCION == "X")
             {
                 Console.WriteLine("ESTAS SON LAS OPCIONES QUE TENEMOS EN ESTA SECCIÓN:");
